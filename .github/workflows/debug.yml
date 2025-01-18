@@ -2,9 +2,9 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ "sdcard" ]
+    branches: [ "refactor" ]
   pull_request:
-    branches: [ "sdcard" ]
+    branches: [ "refactor" ]
 
 jobs:
   build:
